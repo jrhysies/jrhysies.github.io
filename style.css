@@ -1,0 +1,188 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: mintcream; 
+}
+
+/* STYLE TEXT */
+#Learn {
+  font-size: 35px;
+  padding-bottom: 1em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.generator {
+  font-size: 25px;
+  margin: 2em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#maintext1 {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  text-align:left;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+#maintext12 {
+  position: absolute;
+  color: black;
+   top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+#maintext2 {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  text-align:left;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+#maintext22 {
+  position: absolute;
+  color: black;
+  top: 45%;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+#cred1 {
+  position: absolute;
+  top: 97%;
+  left: 2%;
+  font-size: 15px;
+  color: lightgray;
+  opacity: 20%;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+#transcriptin {
+  padding-top: 1em;
+   font-family: 'Merriweather Sans', sans-serif;
+  font-size: 25px;
+}
+#transcriptword {
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-top: 0.5em;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+h2 {
+  padding: 1.5em;
+text-align: center;
+}
+#generatortitle {
+  text-align: center;
+  padding-top: 1.5em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.generator {
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: #d6f1ff
+;
+}
+/* STYLE IMAGES */
+#bgimg {
+  width: 2257;
+  height: 1057px;
+  object-fit: contain;
+}
+img {
+  width: 2800;
+  height: 1242px;
+  object-fit: contain;
+}
+#video1 {
+  padding-left: 10em;
+  padding-top: 1.5em;
+/*   padding-right: 5em; */
+  padding-bottom: 20em;
+}
+.resourceimgs {
+  margin-left: 5em;
+}
+#MIAMI {
+  width: 560;
+  height: 120;
+  padding-left: 19em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+#BARRIER {
+  padding-right: 19em
+  font-family: 'Merriweather Sans', sans-serif;
+}
+/* STYLE NAV BAR */
+li {
+  display: inline;
+ margin: 15em;
+}
+ul {
+  background-image: linear-gradient(rgb(205, 112, 255), rgb(134, 158, 254));
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+/*COLOR PURP: #CD70FF
+COLOR BLU: #869EFE*/
+li a{
+  color: white;
+  font-size: 25px;
+}
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+/* Homepage Animation TEXT */
+.animationtext1 {
+ animation: 2s anim-animationtext1 ease-out;
+}
+#maintext2 {
+ animation: 2s anim-animationtext1 ease-out;
+}
+
+@keyframes anim-animationtext1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity 0;
+  }
+  50% {
+    opacity 1;
+  }
+  100% {
+    opacity 1;
+  }
+}
+/*  */
